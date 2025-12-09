@@ -1,9 +1,9 @@
 shell.run("rm /Applications/sparkDevUtils")
-shell.run("rm /Applications/CONSULT")
+shell.run("rm /Applications/consult")
 shell.run("rm /Applications/sparkFiles")
-shell.run("rm /Applications/sparkMediaCreator")
+shell.run("rm /Applications/sparkmediacreator")
 shell.run("rm /Manifests/sparkFiles.lua")
-shell.run("rm /Manifests/CONSULT.lua")
+shell.run("rm /Manifests/consult.lua")
 shell.run("rm /Manifests/sparkMediaCreator.lua")
 
 shell.run("mkdir /Applications/sparkDevUtils")

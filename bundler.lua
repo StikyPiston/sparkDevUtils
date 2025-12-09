@@ -42,6 +42,7 @@ function Lib.pack(input_dirpath, output_filepath)
     ]]
 
     -- WRITE [ALL FILES] TO TABLE IN OUTPUT FILE
+    print("Bundling files...")
     queue = {''}
     while #queue > 0 do
         dir_name = table.remove(queue)
@@ -80,7 +81,7 @@ function Lib.pack(input_dirpath, output_filepath)
     ]]
 
     -- OPEN OUTPUT FILE
-    print("Writing to file...")
+    print("Writing bundle file...")
     file = fs.open(output_filepath, 'w')
     file.write(s)
     file.close()
